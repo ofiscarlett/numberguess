@@ -27,7 +27,19 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.12.5</version> <!-- Use the latest version -->
+		</dependency>
+
+	
+   <dependency>
+     <groupId>org.clojure</groupId>
+     <artifactId>clojure</artifactId>
+     <version>1.10.1</version>
+   </dependency>
+ </dependencies>
 
 	<build>
 		<plugins>
